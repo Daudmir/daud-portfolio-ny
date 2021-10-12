@@ -5,7 +5,6 @@ import React from 'react';
 import SocialIcons from './social-icons';
 import { socialIconList } from './_config/social-icon-list';
 import { mq } from './_shared/media';
-import { StyledIndexNumber } from './_shared/styled-index-number';
 
 const StyledHeader = styled.header`
   height: var(--header-height);
@@ -74,7 +73,7 @@ const Header = ({ menuLinks }) => (
       <StyledNav>
         {menuLinks.map((link, index) => (
           <StyledNavLink key={link.name} to={link.link} activeClassName="active">
-            <StyledIndexNumber>{`${String(index + 1).padStart(2, '0')}.`}</StyledIndexNumber>
+            
             {link.name}
           </StyledNavLink>
         ))}
