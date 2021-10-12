@@ -1,5 +1,5 @@
 ---
-date: 2020-05-31
+date: 2021-05-29
 title: '100 Beers you must try'
 tags: ['Drinks', 'Beer', 'Craft']
 published: true
