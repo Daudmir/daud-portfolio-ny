@@ -5,6 +5,4 @@ cta_label: ''
 cta_link: '#'
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+I am a creative Frontend Developer and I put a lot of work into every assignment, so I keep getting better.
