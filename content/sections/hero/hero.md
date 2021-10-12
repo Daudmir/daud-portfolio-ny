@@ -1,8 +1,8 @@
 ---
 introduction: "hey it's me"
 tagline: 'Design. Code. Experiment'
-cta_label: 'View Documentation'
-cta_link: 'https://github.com/Knochenmark/gatsby-starter-level-2/blob/master/README.md'
+cta_label: ''
+cta_link: '#'
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
