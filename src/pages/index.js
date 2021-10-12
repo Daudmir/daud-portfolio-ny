@@ -2,9 +2,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import About from '../components/about';
-import CardGrid from '../components/card-grid';
 import Contact from '../components/contact';
-import FeaturedProjects from '../components/featured-projects';
 import Hero from '../components/hero';
 import Layout from '../components/layout';
 import RecentPosts from '../components/recent-posts';
@@ -26,8 +24,6 @@ const Index = ({ data }) => {
       <SEO title="Home" />
       <Hero data={heroData} />
       <About data={data.about} />
-      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="Our Features" id="features" />
-      <FeaturedProjects featured={data.featuredProjects.nodes} />
       <RecentPosts data={data.blog.edges} />
       <Contact data={data.contact} />
     </Layout>
