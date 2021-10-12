@@ -1,9 +1,7 @@
 ---
-phone: '+49 1234 5678910'
-email: 'maxmustermann@gmail.com'
-address: 'Friesenstr. 123, Berlin, Germany'
+phone: '+45 42 72 74 73'
+email: 'daudmir1999@gmail.com'
+address: ''
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy [Link to issues](https://github.com/Knochenmark/gatsby-starter-level-2/issues) tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+If you've reached this section then I must have done something right. Let me know if there is anything else you would like to know, then we can take it over a phone call or send me an email and we can meetup and talk over a cup of coffee. 🙂
