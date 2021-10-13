@@ -1,9 +1,9 @@
 ---
 date: 2020-05-31
-title: 'In 80 Steaks around the world'
-tags: ['Food', 'Meat', 'Steak', 'Dish']
+title: 'Råhandel'
+tags: []
 published: true
-cover_image: ./images/steak.jpg
+cover_image: ./images/Raahandel.jpg
 canonical_url: false
 description: 'The glorius journey to find the 80 best steaks around the world. Find out more about our travel, the steaks we feast and other useful tips for grill enthusiasts'
 ---
