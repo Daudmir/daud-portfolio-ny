@@ -6,11 +6,6 @@ export const indexMenuLinks = [
   },
   {
     name: 'Projects',
-    link: '/#projects',
-    icon: 'terminal',
-  },
-  {
-    name: 'Blog',
     link: '/#blog',
     icon: 'feather-alt',
   },
