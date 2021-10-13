@@ -15,13 +15,15 @@ const StyledTag = styled.span`
   white-space: nowrap;
   font-size: 0.8rem;
   font-weight: 500;
-  text-transform: lowercase;
 
   color: var(--primary-color);
   margin: 0 1rem 0.5rem 0;
 `;
 const StyledTagLink = styled(Link)`
   text-decoration: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 0 10px;
 `;
 
 const TagList = ({ tags }) => {
@@ -29,7 +31,7 @@ const TagList = ({ tags }) => {
     <StyledTagContainer>
       {tags.map((tag) => (
         <StyledTag key={tag}>
-          <StyledTagLink to={`/tags/${tag}/`}>#{tag}</StyledTagLink>
+          <StyledTagLink to={`/tags/${tag}/`}>{tag}</StyledTagLink>
         </StyledTag>
       ))}
     </StyledTagContainer>
