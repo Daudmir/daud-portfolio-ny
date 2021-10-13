@@ -24,7 +24,6 @@ const StyledFormContainer = styled.section`
   }
 `;
 const StyledForm = styled.div`
-  color: var(--primary-color);
 
   font-weight: normal;
 `;
@@ -81,7 +80,7 @@ const Contact = ({ data }) => {
               <Icon icon="paper-plane" />
               <StyledFormContainer>
                 <StyledForm>My E-Mail</StyledForm>
-                <span>{email}</span>
+                <a href="mailto:">{email}</a>
               </StyledFormContainer>
             </StyledContainer>
           )}
