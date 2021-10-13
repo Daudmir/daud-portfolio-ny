@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import PropTypes from 'prop-types';
 import React from 'react';
-import TextLink from './links/text-link';
 import TagList from './tag-list';
 import { mq } from './_shared/media';
 import { StyledH1, StyledH2 } from './_shared/styled-headings';
@@ -108,7 +107,6 @@ const RecentPosts = ({ data }) => {
       <StyledH1>Projects</StyledH1>
       <StyledPostsContainer>{recentPosts}</StyledPostsContainer>
       <StyledBlogLinkContainer>
-        <TextLink label="View All Posts" link="/blog" />
       </StyledBlogLinkContainer>
     </StyledSection>
   );
