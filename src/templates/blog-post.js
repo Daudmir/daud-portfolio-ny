@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -8,6 +8,10 @@ import TagList from '../components/tag-list';
 import { blogMenuLinks } from '../components/_config/menu-links';
 import { StyledH1 } from '../components/_shared/styled-headings';
 import { StyledSection } from '../components/_shared/styled-section';
+
+
+//icons
+import { CgArrowLeft } from 'react-icons/cg'
 
 const StyledBlogSection = styled(StyledSection)`
   min-height: calc(100vh - var(--header-height));
@@ -29,7 +33,6 @@ const StyledDate = styled.div`
 const StyledBlogText = styled.div`
   padding: 2rem;
   width: 100%;
-  background: var(--bg-code);
   border-radius: var(--radius);
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -44,11 +47,14 @@ const BlogPost = ({ data }) => {
   return (
     <Layout menuLinks={blogMenuLinks}>
       <StyledBlogSection>
+        <Link to="/">
+          <CgArrowLeft className="back-button" />
+          </Link>
+        <TagList tags={tags} />
         <StyledBlogTitle>{title}</StyledBlogTitle>
         <StyledDate>
           Posted {date}. <span>{readingTime}.</span>
         </StyledDate>
-        <TagList tags={tags} />
         {coverImage && <GatsbyImage image={coverImage} alt={title} />}
         <StyledBlogText dangerouslySetInnerHTML={{ __html: post.html }} />
       </StyledBlogSection>
